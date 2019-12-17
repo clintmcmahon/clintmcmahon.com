@@ -1,0 +1,2 @@
+# clintmcmahon.com
+Personal website

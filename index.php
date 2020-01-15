@@ -17,10 +17,10 @@ include_once('header.php');
 					<div class="media-body">
 						<h2 class="name font-weight-bold mb-1">Clint McMahon</h2>
 						<div class="tagline mb-3">Senior Software Engineer</div>
-						<div class="bio mb-4">I'm a software engineer specializing in full stack development engineering complex software applications, APIs, websites and mobile apps. I write about coding on <a class="link-on-bg" href="https://medium.com/@cwmcmhn">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.php">portfolio</a> and <a class="link-on-bg" href="resume.php">online resume</a>.
+						<div class="bio mb-4">I'm a software engineer specializing in full stack development engineering complex software applications, APIs, websites and mobile apps. I sometimes write about coding on <a class="link-on-bg" href="https://medium.com/@cwmcmhn" target="_blank">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="/portfolio">portfolio</a> and <a class="link-on-bg" href="resume.php">online resume</a>.
 						</div><!--//bio-->
 						<div class="mb-4">
-							<a class="btn btn-primary mr-2 mb-3" href="portfolio.php"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
+							<a class="btn btn-primary mr-2 mb-3" href="/portfolio"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
 							<a class="btn btn-secondary mb-3" href="resume.php"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
 						</div>
 					</div><!--//media-body-->
@@ -29,10 +29,27 @@ include_once('header.php');
 			</div>
 		</section><!--//about-me-section-->
 		
-		<section class="overview-section p-3 p-lg-5">
+		<section class="overview-section pt-3 pt-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
-				<div class="section-intro mb-5">I have years of experience leading projects and building software for clients of all sizes all over the world. Below is a quick overview of my technical skill set and my favorite technologies to use. To see more of my experience and what companies I've worked with check out my <a href="resume.php">online resume</a> and <a href="portfolio.php">project portfolio</a>.</div>
+				<div class="section-intro mb-2">I've been building software since I was sixteen in my high school Computers I class. I have years of experience leading projects and building software for clients of all sizes all over the 
+					world. To see more of my experience and what companies I've worked with check out my <a href="resume.php">online resume</a> 
+					and <a href="portfolio.php">project portfolio</a>.
+				</div>
+				<div class="section-intro mb-2">
+                    When I'm not hanging out with my family, putting on a crawfish boil for the neighborhood, making pour over coffees or exploring the city, my free time is often spent scripting
+                    my favorite radio stations to Spotify playlists or building bots to track my favorite tamale vendor on Twitter. 
+                </div>
+                <div class="section-intro mb-5">
+                    I'm interested in new opportunities as well as interacting with other tech folks - plus pizza and coffee. If you have recomendations on either of those last two
+                    or would like talk about a new project, business or development, drop me a line at <a href="mailto:clint@nordicdev.io">clint@nordicdev.io</a>.
+                </div>
+			</div>
+		</section>
+		<div class="container"><hr></div>
+		<section class="overview-section pt-3 pt-lg-5">
+			<div class="container">
+			<h2 class="section-title font-weight-bold mb-3">My Tech Stack</h2>
 				<div class="row">
 					<div class="item col-6 col-lg-4">
 						<div class="item-inner">
@@ -85,10 +102,6 @@ include_once('header.php');
 						</div><!--//item-inner-->
 					</div><!--//item-->
 				</div><!--//row-->
-				<div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>Services &amp; Pricing
-					
-				</a></div>
-				
 			</div><!--//container-->
 		</section>
 		
@@ -153,7 +166,7 @@ include_once('header.php');
 		
 		<div class="container"><hr></div>
 		
-		<section class="featured-section p-3 p-lg-5">
+		<!--section class="featured-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
 				<div class="row">
@@ -178,9 +191,9 @@ include_once('header.php');
 										<i class="fas fa-eye mr-2"></i>View Case Study
 									</a>
 								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
+							</div>
+						</div>
+					</div>
 					<div class="col-md-6 mb-5">	
 						<div class="card project-card">
 							<div class="row no-gutters">
@@ -202,9 +215,9 @@ include_once('header.php');
 										<i class="fas fa-eye mr-2"></i>View Case Study
 									</a>
 								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
+							</div>
+						</div>
+					</div>
 					<div class="col-md-6 mb-5">
 						<div class="card project-card">
 							<div class="row no-gutters">
@@ -226,9 +239,9 @@ include_once('header.php');
 										<i class="fas fa-eye mr-2"></i>View Case Study
 									</a>
 								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
+							</div>
+						</div>
+					</div>
 					<div class="col-md-6 mb-5">
 						<div class="card project-card">
 							<div class="row no-gutters">
@@ -250,17 +263,18 @@ include_once('header.php');
 										<i class="fas fa-eye mr-2"></i>View Case Study
 									</a>
 								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="text-center py-3"><a href="portfolio.php" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a></div>
 				
-			</div><!--//container-->
-		</section><!--//featured-section-->
+			</div>
+		</section><
 		
 		<div class="container"><hr></div>
 		
+
 		<section class="latest-blog-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
@@ -277,8 +291,8 @@ include_once('header.php');
 							<div class="card-footer">
 								<small class="text-muted">Published 2 days ago</small>
 							</div>
-						</div><!--//card-->
-					</div><!--//col-->
+						</div>
+					</div>
 					<div class="col-md-4 mb-5">
 						<div class="card blog-post-card">
 							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-2.jpg" alt="image">
@@ -291,8 +305,8 @@ include_once('header.php');
 								<small class="text-muted">Published a week ago</small>
 								
 							</div>
-						</div><!--//card-->
-					</div><!--//col-->
+						</div>
+					</div>
 					<div class="col-md-4 mb-5">
 						<div class="card blog-post-card">
 							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-3.jpg" alt="image">
@@ -304,13 +318,13 @@ include_once('header.php');
 							<div class="card-footer">
 								<small class="text-muted">Published 3 weeks ago</small>
 							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
+						</div>
+					</div>
+				</div>
 				<div class="text-center py-3"><a href="blog-home.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Blog</a></div>
-			</div><!--//container-->
+			</div>
 			
-		</section><!--//latest-blog-section-->
+		</section-->
 
 		<footer class="footer text-center py-4">
 			<small class="copyright">Made in Minnesota</small>

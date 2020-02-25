@@ -1,0 +1,8 @@
+  # Custom subdomain .htaccess SSL + WordPress
+            RewriteEngine On
+            RewriteCond %{HTTP_HOST} ^subdomain.maindomain.com$
+            RewriteCond %{REQUEST_URI} !^/subfolder/
+            RewriteRule ^(.*)$ /subfolder/$1
+            RewriteCond %{HTTP_HOST} ^subdomain.maindomain.com$
+            RewriteRule ^(/)?$ subfolder/index.php [L]
+            # End custom subdomain .htaccess

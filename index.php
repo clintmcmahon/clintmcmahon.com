@@ -16,8 +16,9 @@ include_once('header.php');
 					
 					<div class="media-body">
 						<h2 class="name font-weight-bold mb-1">Clint McMahon</h2>
-						<div class="tagline mb-3">Senior Software Engineer</div>
-						<div class="bio mb-4">I'm a software engineer specializing in full stack development engineering complex software applications, APIs, websites and mobile apps. I sometimes write about coding on <a class="link-on-bg" href="https://medium.com/@cwmcmhn" target="_blank">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="/portfolio">portfolio</a> and <a class="link-on-bg" href="resume.php">online resume</a>.
+						<div class="tagline mb-3">Feelance Web and Mobile App Developer / Technology Consultant</div>
+						<div class="bio mb-4">I'm a freelance software engineer specializing in full stack web development, building APIs, and mobile apps. I write about coding 
+							on <a class="link-on-bg" href="https://medium.com/@cwmcmhn" target="_blank">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="/portfolio">portfolio</a> and <a class="link-on-bg" href="resume.php">online resume</a>.
 						</div><!--//bio-->
 						<div class="mb-4">
 							<a class="btn btn-primary mr-2 mb-3" href="/portfolio"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
@@ -29,7 +30,7 @@ include_once('header.php');
 			</div>
 		</section><!--//about-me-section-->
 		
-		<section class="overview-section pt-3 pt-lg-5">
+		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
 				<div class="section-intro mb-2">I've been building software since I was sixteen in my high school Computers I class. I have years of experience leading projects and building software for clients of all sizes all over the 
@@ -38,7 +39,7 @@ include_once('header.php');
 				</div>
 				<div class="section-intro mb-2">
                     When I'm not hanging out with my family, putting on a crawfish boil for the neighborhood, making pour over coffees or exploring the city, my free time is often spent scripting
-                    my favorite radio stations to Spotify playlists or building bots to track my favorite tamale vendor on Twitter. 
+                    my favorite radio stations to <a href="https://github.com/clintmcmahon/currentify" target="_blank">Spotify playlists</a> or building bots to <a href="https://github.com/clintmcmahon/twitter-retweet-bot" target="_blank">track my favorite tamale vendor on Twitter</a>. 
                 </div>
                 <div class="section-intro mb-5">
                     I'm interested in new opportunities as well as interacting with other tech folks - plus pizza and coffee. If you have recomendations on either of those last two
@@ -47,7 +48,7 @@ include_once('header.php');
 			</div>
 		</section>
 		<div class="container"><hr></div>
-		<section class="overview-section pt-3 pt-lg-5">
+		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 			<h2 class="section-title font-weight-bold mb-3">My Tech Stack</h2>
 				<div class="row">

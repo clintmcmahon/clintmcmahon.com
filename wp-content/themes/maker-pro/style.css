@@ -1128,7 +1128,7 @@ a[rel~="attachment"]:hover,
 
 .site-header {
 	width: 100%;
-	padding: 40px 0;
+	padding: 20px 0;
 	position: relative;
 }
 
@@ -1138,7 +1138,7 @@ a[rel~="attachment"]:hover,
 }
 
 .site-title {
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: 900;
 	line-height: 1.2;
 	margin: 0 auto;
@@ -1180,7 +1180,7 @@ a[rel~="attachment"]:hover,
 @media only screen and (min-width: 800px) {
 
 	.site-header {
-		padding: 60px 0 50px;
+		padding: 20px 0 10px;
 	}
 
 	.title-area {
@@ -2071,4 +2071,49 @@ p.comment-form-comment {
 
 .site-footer p {
 	margin-bottom: 0;
+}
+
+.photoblog .content-sidebar-wrap{
+	width: 100%;
+}
+
+.post h1.entry-title{
+	font-size: 60px;
+}
+.entry-content figure{
+	margin: 0px;
+}
+
+.recent-posts-widget-with-thumbnails ul{
+	display:flex;
+}
+
+.recent-posts-widget-with-thumbnails ul li{
+	width:33%;
+	padding: 15px;
+}
+
+.recent-posts-widget-with-thumbnails ul li a{
+	display: flex;
+	flex-direction: column;
+	border-bottom: none;
+}
+
+.recent-posts-widget-with-thumbnails img{
+	height: 100% !important;
+	width: 100% !important;
+}
+
+.front-page-1 .two-thirds,
+.front-page-3 .three-fourths{
+	width: 100% !important;
+}
+
+h1, .front-page-1 .widgettitle{
+	font-size: 52px;
+	width: 100% !important;
+}
+
+.nav-primary .genesis-nav-menu a{
+	font-size: 18px;
 }
